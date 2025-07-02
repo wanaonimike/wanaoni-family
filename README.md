@@ -1,6 +1,6 @@
-# Wanani Family Repository
+# Wanaoni Family Repository
 
-Welcome to the Wanani Family Repository!
+Welcome to the Wanaoni Family Repository!
 
-👉 Click here to access the Wanani Family Script
+👉 Click here to access the Wanaoni Family Script
 
