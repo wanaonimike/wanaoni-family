@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wanaonimike.github.io/wanaoni-family/sitemap.xml
