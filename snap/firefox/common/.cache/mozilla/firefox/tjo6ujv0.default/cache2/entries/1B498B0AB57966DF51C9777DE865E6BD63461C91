@@ -1,0 +1,277 @@
+{
+  "conversationController": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw?i=10-128-24-35&e=638866231824725289",
+  "sequenceNumber": 2,
+  "subject": "",
+  "activeModalities": {
+    "groupChat": {
+      "threadId": "19:bf428514b5da482f9c2271db7191d87c@thread.tacv2",
+      "messageId": "1751195807068"
+    }
+  },
+  "state": {
+    "isMultiParty": true,
+    "groupCallInitiator": "8:teamsvisitor:88840faa0f854ceea95494f6b504a056",
+    "isHostless": true,
+    "conversationType": "scheduledMeeting",
+    "isBroadcast": false,
+    "isMeetingActivated": false
+  },
+  "links": {
+    "leave": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/leave?i=10-128-24-35&e=638866231824725289",
+    "addParticipant": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/addParticipant?i=10-128-24-35&e=638866231824725289",
+    "removeParticipant": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/removeParticipant?i=10-128-24-35&e=638866231824725289",
+    "addModality": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/addModality?i=10-128-24-35&e=638866231824725289",
+    "addParticipantAndModality": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/add?i=10-128-24-35&e=638866231824725289",
+    "removeModality": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/removeModality?i=10-128-24-35&e=638866231824725289",
+    "mute": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/mute?i=10-128-24-35&e=638866231824725289",
+    "unmute": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/unmute?i=10-128-24-35&e=638866231824725289",
+    "notificationLinks": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/notificationLinks?i=10-128-24-35&e=638866231824725289",
+    "merge": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/merge?i=10-128-24-35&e=638866231824725289",
+    "updateEndpointMetadata": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/updateEndpointMetadata?i=10-128-24-35&e=638866231824725289",
+    "updateEndpointState": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/updateEndpointState?i=10-128-24-35&e=638866231824725289",
+    "admit": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/admit?i=10-128-24-35&e=638866231824725289",
+    "subscribe": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/broker-sano-01-prod-aks.broker.skype.com/api/v1/subscribe/db7ab397-deb5-4f7b-b36d-36bc7f00aed9/0?i=10-128-7-29",
+    "brokerHttpTransport": "http://52.123.151.30/enc",
+    "conversationHttpTransport": "http://52.123.151.30/enc",
+    "setMeetingLayout": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/setMeetingLayout?i=10-128-24-35&e=638866231824725289",
+    "updateParticipantProperties": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/updateParticipantProperties?i=10-128-24-35&e=638866231824725289",
+    "publishState": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/publishState?i=10-128-24-35&e=638866231824725289",
+    "removeState": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/removeState?i=10-128-24-35&e=638866231824725289",
+    "updateMeetingSettings": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/updateMeetingSettings?i=10-128-24-35&e=638866231824725289",
+    "searchParticipants": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/searchParticipants?i=10-128-24-35&e=638866231824725289",
+    "getAllParticipants": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/getAllParticipants?i=10-128-24-35&e=638866231824725289",
+    "admitAll": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/admitAll?i=10-128-24-35&e=638866231824725289",
+    "updateParticipantMapping": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/updateParticipantMapping?i=10-128-24-35&e=638866231824725289",
+    "sendMessage": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/sendMessage?i=10-128-24-35&e=638866231824725289",
+    "updateMeetingStates": "https://api.flightproxy.teams.microsoft.com/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw/updateMeetingStates?i=10-128-24-35&e=638866231824725289"
+  },
+  "capabilities": {
+    "cloudAudioVideoConference": "disabled",
+    "cloudScreenSharing": "disabled",
+    "hostlessConference": "disabled",
+    "cloudMerge": "disabled",
+    "additionalModalityOperationLinks": "disabled",
+    "implicitCallback": "disabled",
+    "autoJoinOnConflict": "disabled",
+    "supportsCompressedServicePayload": "disabled",
+    "serverMuteUnmute": "disabled",
+    "supportNgcMediaControl": "disabled",
+    "supportsBatchedReceiveMessage": "disabled",
+    "supportsBatchedSendMessageStatus": "disabled",
+    "supportsGroupKeyManagerDemotion": "disabled",
+    "supportsStreamingAutoPromotion": "disabled"
+  },
+  "meetingDetails": {
+    "capabilities": {
+      "allowAnonymousUsersToDialOut": false,
+      "admissionType": "anonymous",
+      "allowAnonymousUsersToStartMeeting": false,
+      "admitAnonymousUsersByDefault": false,
+      "appDesktopSharingType": "none",
+      "allowVideo": false,
+      "allowDialinConferencing": false,
+      "allowCloudRecording": false,
+      "pstnConferencingDialoutType": "disabled"
+    },
+    "pstnDetails": null,
+    "invitation": null,
+    "meetingCapability": {
+      "showContentSharePreviewInManagedMode": false,
+      "producerOption": "OrganizersAndPresentersOnly",
+      "detectSensitiveContentDuringScreenSharing": false,
+      "enableMultiLingualMeeting": false,
+      "autoTranscriptionOnlyEnabled": false,
+      "allowedUsersForMeetingDetails": "UsersAllowedToByPassTheLobby",
+      "productionStudioMode": "Off",
+      "enableProductionStudio": false,
+      "autoAdmittedUsers": "EveryoneInCompany",
+      "legalUrl": null,
+      "recorderOption": "OrganizersAndPresentersOnly",
+      "attendeeRestrictions": "UnRestricted",
+      "allowIPVideo": true,
+      "allowAnonymousUsersToDialOut": false,
+      "allowAnonymousUsersToStartMeeting": false,
+      "allowedAutoAdmittedUsers": [
+        "EveryoneInCompany"
+      ],
+      "allowRegisteredUsersToBypassLobby": false,
+      "enableAppDesktopSharing": "Desktop",
+      "pstnConferencingDialOutType": "InternationalAndDomestic",
+      "allowCloudRecording": true,
+      "allowLocalRecording": false,
+      "allowTranscription": false,
+      "allowPowerPointSharing": true,
+      "allowSharedNotes": true,
+      "allowWhiteboard": true,
+      "allowBreakoutRooms": true,
+      "allowDocumentCollaboration": "Enabled",
+      "allowPstnConferencing": false,
+      "allowRaiseHands": true,
+      "enableRealtimeTelemetry": false,
+      "entryExitAnnouncementsEnabled": true,
+      "allowPstnUsersToBypassLobby": false,
+      "lockMeeting": false,
+      "disableLobby": false,
+      "allowTeamsMeetingReactions": true,
+      "yammerQNAEnabled": false,
+      "breakoutRoomsEnabled": false,
+      "overflowModeActive": false,
+      "streamingModeActive": false,
+      "attendeeViewModes": "Default",
+      "rtmpEnabled": false,
+      "stagingRoomEnabled": false,
+      "meetingScenario": null,
+      "cartCapability": {
+        "cartEnabled": false
+      },
+      "waterMarkCapability": {
+        "enabledForVbss": false,
+        "enabledForVideo": false,
+        "anonymousUsers": "joinWithAudioOnly",
+        "vbssSettings": null,
+        "videoSettings": null
+      },
+      "meetingLiveState": {
+        "phase": "staging",
+        "sequenceNumber": 0,
+        "seqNum": 0
+      },
+      "mdpClientAudioRecordingEligible": false,
+      "interpretationEnabled": false,
+      "aiInterpretationEnabled": null,
+      "segmentationTypeForAiInterpreter": "Normal",
+      "sensitivityLabelId": null,
+      "meetingEndToEndEncryptionEnabled": false,
+      "maskIdentitiesForRole": false,
+      "forceAttendeeStreaming": false,
+      "disableMeetingBranding": false,
+      "isCopyRestrictionEnforced": false,
+      "enableParticipantRenaming": false,
+      "allowSharingChatHistory": false,
+      "allowTranslatedCaptions": false,
+      "allowTranslatedTranscriptions": false,
+      "isPresenterCapabilitiesReduced": false,
+      "liveChatEnabled": false,
+      "isModeratorEnabled": false,
+      "enableBackroomChat": false,
+      "copilotMode": "EnabledWithTranscript",
+      "automaticallyStartCopilot": "Disabled",
+      "groupCopilotDetails": null,
+      "meetingSpokenLanguage": null,
+      "disableAnonymousJoin": false,
+      "anonymousUserAuthenticationMethod": "none",
+      "whoCanAccessTranscriptAndRecording": "Default",
+      "whoCanManageQna": "OrganizersAndCoorganizers",
+      "transcriptAndRecordingUsers": null,
+      "usersCanAdmitFromLobby": "OrganizersAndPresentersOnly",
+      "preventScreenCapture": false,
+      "visualInsightsEnabled": false
+    },
+    "exchangeId": null,
+    "iCalUid": null,
+    "meetingType": "Scheduled",
+    "startTime": "0001-01-01T00:00:00",
+    "endTime": "0001-01-01T00:00:00",
+    "expiryTime": "0001-01-01T00:00:00",
+    "isInGracePeriod": false,
+    "isPresenterConnected": false,
+    "isMeetingActiveWithinScheduleTime": false,
+    "brandingInfo": {
+      "enableLobbyLogoBranding": false,
+      "lobbyLogoBrandingImages": null,
+      "enableLobbyBackgroundBranding": false,
+      "lobbyBackgroundBrandingImages": null,
+      "enableNdiAssuranceSlate": false,
+      "ndiAssuranceSlateImages": null,
+      "enableMeetingBackgroundImages": false,
+      "meetingBackgroundImages": null,
+      "meetingBrandingThemes": null,
+      "defaultTheme": null
+    },
+    "invitees": {
+      "coOrganizers": []
+    },
+    "templateDetails": null,
+    "eventDetails": null,
+    "vivaEventDetails": null,
+    "featureTypes": null,
+    "meetingOptionsErrorState": "none",
+    "recordingConsentDetails": {
+      "explicitRecordingConsentEnabled": false,
+      "consentActivelyRequired": false
+    },
+    "organizerRegion": "emea",
+    "interpreters": null,
+    "organizerCloud": "Public",
+    "anyWaterMarkLegacyUserEverInMeeting": false,
+    "disableReactions": false
+  },
+  "tenantId": "7d5331b8-328c-4141-b69d-02703402f6f0",
+  "region": "emea",
+  "meetingInfo": {
+    "organizerId": "af557628-7318-41ab-9d54-9a60343058b7",
+    "tenantId": "7d5331b8-328c-4141-b69d-02703402f6f0"
+  },
+  "callLimits": {
+    "remainingDurationInMinutes": 60,
+    "maxAllowedParticipants": 100,
+    "sponsor": "",
+    "enforcePaywallLimits": false
+  },
+  "streamingSetupFailureDebugInfo": null,
+  "layoutDetails": null,
+  "compositionServiceDetails": null,
+  "originalGroupCallInitiator": null,
+  "creatorClientVersion": null,
+  "conversationStartTime": "2025-07-01T17:21:20.7223317Z"
+}:=ð5Ë      hdhdH[»­       x    O^partitionKey=%28https%2Cmicrosoft.com%29,a,~1751390385,:https://api-afrc.flightproxy.teams.microsoft.com/api/v2/epconv strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEAOQFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAiKMIIIhjCCBm6gAwIBAgITMwHMDwM4gjfiILjCrQAAAcwPAzANBgkqhkiG9w0BAQwFADBdMQswCQYDVQQGEwJVUzEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMS4wLAYDVQQDEyVNaWNyb3NvZnQgQXp1cmUgUlNBIFRMUyBJc3N1aW5nIENBIDA4MB4XDTI1MDUxNDEwMzE1N1oXDTI1MTExMDEwMzE1N1oweDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAldBMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xKjAoBgNVBAMMISouZmxpZ2h0cHJveHkudGVhbXMubWljcm9zb2Z0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANx+nryTTQSJUhSD/65y1z+Vw3Ud6BWGPeorzJcoTGB3iPHOsjrU+DiX8xVwshQqP9ZxcWcTTwJeq0vcW0f6d/CZ/9KfkNboueVsCYdMJFsT+17pkQYcSNciFeAHu8njRtFxslXGEi7n9rXYP4QwIvt/KiyYJYM7hqidmmhI/kxvfvI5q+O1ifaB17UbDuKTinz0w8BBetIKzGt+SFIznRPginz+dwhKqIXr5W7wHTWPjpdpS7X0gBfVC9lvJLCNr9dnAsqJ1jI9cgBB8EAsiGVdh6MsofeYPGMzSvToLVbbvr99KIks9FUbkv30tRB/t43Tr86vnlxfLTU/mshS/K0CAwEAAaOCBCIwggQeMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdgDd3Mo0ldfhFgXnlTL6x5/4PRxQ39sAOhQSdgosrLvIKgAAAZbOYw/qAAAEAwBHMEUCIQDWmZGVfriTICz/72al5CbTWcIoFtv9m3CPWtsBrfBi6AIgVlXEvHIBwznU4s5gAP/S7eUXPNGuWl0makhO6u1N/PAAdgB9WR4S4XgqexxhZ3xe/fjQh1wUoE6VnrkDL9kOjC55uAAAAZbOYxC9AAAEAwBHMEUCICUClO06/we8GIXZwuwbdk9Sc/VGtBterIhcCk5JAdVVAiEA4u7o/n45/3j2KidERW46Mr88HxKL7DM4CuozsKqt75QAdQAaBP9J0FQdQK/2oMO/8djEZy9O7O4jQGiYaxdALtyJfQAAAZbOYxNWAAAEAwBGMEQCIFse8dr22b1vrk1fQn1z90O32ZnuMJiobfDW1tEd1RxlAiBYF5UDGhR2hBFzDitNo14wgQsPZ9E6CNu8Ec4/WjhHlDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIe91xuB5+tGgoGdLo7QDIfw2h1dgqvnMIft8R8CAWQCAS0wgbQGCCsGAQUFBwEBBIGnMIGkMHMGCCsGAQUFBzAChmdodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL2NlcnRzL01pY3Jvc29mdCUyMEF6dXJlJTIwUlNBJTIwVExTJTIwSXNzdWluZyUyMENBJTIwMDglMjAtJTIweHNpZ24uY3J0MC0GCCsGAQUFBzABhiFodHRwOi8vb25lb2NzcC5taWNyb3NvZnQuY29tL29jc3AwHQYDVR0OBBYEFMAhktta0a9TQEyBTjyBUjTflDilMA4GA1UdDwEB/wQEAwIFoDAsBgNVHREEJTAjgiEqLmZsaWdodHByb3h5LnRlYW1zLm1pY3Jvc29mdC5jb20wDAYDVR0TAQH/BAIwADBqBgNVHR8EYzBhMF+gXaBbhllodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL2NybC9NaWNyb3NvZnQlMjBBenVyZSUyMFJTQSUyMFRMUyUyMElzc3VpbmclMjBDQSUyMDA4LmNybDBmBgNVHSAEXzBdMFEGDCsGAQQBgjdMg30BATBBMD8GCCsGAQUFBwIBFjNodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL0RvY3MvUmVwb3NpdG9yeS5odG0wCAYGZ4EMAQICMB8GA1UdIwQYMBaAFPZ+L72Ao0qycFvr35of2O3KYYAHMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATANBgkqhkiG9w0BAQwFAAOCAgEAjG1tEMYT5wbzhUD8HIivpsGKcL5fk/92JT+dvFC+FAoFbzwkXffrBow9ndEcTlcBcordSpJv9KFjdhZ9go3JVsYBZen7vDdrzSuHuAsZLpRRTngNdMhm2laccV3pyZsXtJS08WWg4pGtLbifJM9IBV9xUG0eva5XWKcH/HgKYkJqi4Iax9Vk6S3gcGo4pua5q9PG54ygW/+LLSJp6rIFTjbUn3lvoMlGb/NIU7ZP6ZycBPbREzAzlLM5fPJXUSpqxXy/95Mj/PIdFUWnS1apyPebT3MWv0cdyG0h1GnR6wMq5dYcmy++XB5U7yxopP+vTy1Rk8N4AdB5CWbXZzo6m2eUrjmRXZUtBA0mkLzODxx7TQ6tZC/BavXAWSOPMFRXuIjBLWK8broJ2nLi8hXKOCi8dh1r2esxBCFM2LYchSPDgVnYRemIfh5Tbaxzr36E9A/LlWGAZchp+V0XKu8bTAZ45wPfLfJmq0GnNcTMgXe/9X+cr86h3KGbnvB+CN75JvTvf818qGOAOBUNFcDJWu/VuvmHdBkokHt3K6YpaNHT1KecexE/uu5K8U9UeUIyoD50rkVH2ddUV0W1rbDlMo3RqNxZ53IKRPQfRfEOheh628T8Ez8Es0TFSgS5QkyOQT4Zh82UlyExGiAbY/rClVLqvDUA7CuZYdT6UeyuViHAMAADAAAAAAABAQAABQAAAAZ4MjU1MTkAAAAOUlNBLVBTUy1TSEEyNTYAA2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAACIowggiGMIIGbqADAgECAhMzAcwPAziCN+IguMKtAAABzA8DMA0GCSqGSIb3DQEBDAUAMF0xCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xLjAsBgNVBAMTJU1pY3Jvc29mdCBBenVyZSBSU0EgVExTIElzc3VpbmcgQ0EgMDgwHhcNMjUwNTE0MTAzMTU3WhcNMjUxMTEwMTAzMTU3WjB4MQswCQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEqMCgGA1UEAwwhKi5mbGlnaHRwcm94eS50ZWFtcy5taWNyb3NvZnQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3H6evJNNBIlSFIP/rnLXP5XDdR3oFYY96ivMlyhMYHeI8c6yOtT4OJfzFXCyFCo/1nFxZxNPAl6rS9xbR/p38Jn/0p+Q1ui55WwJh0wkWxP7XumRBhxI1yIV4Ae7yeNG0XGyVcYSLuf2tdg/hDAi+38qLJglgzuGqJ2aaEj+TG9+8jmr47WJ9oHXtRsO4pOKfPTDwEF60grMa35IUjOdE+CKfP53CEqohevlbvAdNY+Ol2lLtfSAF9UL2W8ksI2v12cCyonWMj1yAEHwQCyIZV2Hoyyh95g8YzNK9OgtVtu+v30oiSz0VRuS/fS1EH+3jdOvzq+eXF8tNT+ayFL8rQIDAQABo4IEIjCCBB4wggF9BgorBgEEAdZ5AgQCBIIBbQSCAWkBZwB2AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABls5jD+oAAAQDAEcwRQIhANaZkZV+uJMgLP/vZqXkJtNZwigW2/2bcI9a2wGt8GLoAiBWVcS8cgHDOdTizmAA/9Lt5Rc80a5aXSZqSE7q7U388AB2AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABls5jEL0AAAQDAEcwRQIgJQKU7Tr/B7wYhdnC7Bt2T1Jz9Ua0G16siFwKTkkB1VUCIQDi7uj+fjn/ePYqJ0RFbjoyvzwfEovsMzgK6jOwqq3vlAB1ABoE/0nQVB1Ar/agw7/x2MRnL07s7iNAaJhrF0Au3Il9AAABls5jE1YAAAQDAEYwRAIgWx7x2vbZvW+uTV9CfXP3Q7fZme4wmKht8NbW0R3VHGUCIFgXlQMaFHaEEXMOK02jXjCBCw9n0ToI27wRzj9aOEeUMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwIwCgYIKwYBBQUHAwEwPAYJKwYBBAGCNxUHBC8wLQYlKwYBBAGCNxUIh73XG4Hn60aCgZ0ujtAMh/DaHV2Cq+cwh+3xHwIBZAIBLTCBtAYIKwYBBQUHAQEEgacwgaQwcwYIKwYBBQUHMAKGZ2h0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvY2VydHMvTWljcm9zb2Z0JTIwQXp1cmUlMjBSU0ElMjBUTFMlMjBJc3N1aW5nJTIwQ0ElMjAwOCUyMC0lMjB4c2lnbi5jcnQwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vbmVvY3NwLm1pY3Jvc29mdC5jb20vb2NzcDAdBgNVHQ4EFgQUwCGS21rRr1NATIFOPIFSNN+UOKUwDgYDVR0PAQH/BAQDAgWgMCwGA1UdEQQlMCOCISouZmxpZ2h0cHJveHkudGVhbXMubWljcm9zb2Z0LmNvbTAMBgNVHRMBAf8EAjAAMGoGA1UdHwRjMGEwX6BdoFuGWWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvY3JsL01pY3Jvc29mdCUyMEF6dXJlJTIwUlNBJTIwVExTJTIwSXNzdWluZyUyMENBJTIwMDguY3JsMGYGA1UdIARfMF0wUQYMKwYBBAGCN0yDfQEBMEEwPwYIKwYBBQUHAgEWM2h0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvRG9jcy9SZXBvc2l0b3J5Lmh0bTAIBgZngQwBAgIwHwYDVR0jBBgwFoAU9n4vvYCjSrJwW+vfmh/Y7cphgAcwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA0GCSqGSIb3DQEBDAUAA4ICAQCMbW0QxhPnBvOFQPwciK+mwYpwvl+T/3YlP528UL4UCgVvPCRd9+sGjD2d0RxOVwFyit1Kkm/0oWN2Fn2CjclWxgFl6fu8N2vNK4e4CxkulFFOeA10yGbaVpxxXenJmxe0lLTxZaDika0tuJ8kz0gFX3FQbR69rldYpwf8eApiQmqLghrH1WTpLeBwajim5rmr08bnjKBb/4stImnqsgVONtSfeW+gyUZv80hTtk/pnJwE9tETMDOUszl88ldRKmrFfL/3kyP88h0VRadLVqnI95tPcxa/Rx3IbSHUadHrAyrl1hybL75cHlTvLGik/69PLVGTw3gB0HkJZtdnOjqbZ5SuOZFdlS0EDSaQvM4PHHtNDq1kL8Fq9cBZI48wVFe4iMEtYrxuugnacuLyFco4KLx2HWvZ6zEEIUzYthyFI8OBWdhF6Yh+HlNtrHOvfoT0D8uVYYBlyGn5XRcq7xtMBnjnA98t8marQac1xMyBd7/1f5yvzqHcoZue8H4I3vkm9O9/zXyoY4A4FQ0VwMla79W6+Yd0GSiQe3crpilo0dPUp5x7ET+67krxT1R5QjKgPnSuRUfZ11RXRbWtsOUyjdGo3FnncgpE9B9F8Q6F6HrbxPwTPwSzRMVKBLlCTI5BPhmHzZSXITEaIBtj+sKVUuq8NQDsK5lh1PpR7K5WIWYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABbAwggWsMIIElKADAgECAhAO+35Uft8P8Qaa7ldpbXugMA0GCSqGSIb3DQEBDAUAMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEcyMB4XDTIzMDYwODAwMDAwMFoXDTI2MDgyNTIzNTk1OVowXTELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEuMCwGA1UEAxMlTWljcm9zb2Z0IEF6dXJlIFJTQSBUTFMgSXNzdWluZyBDQSAwODCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALLuggXNwNVlVuiZZm1LCsBfwuIpexsJzC4UvsUeQPmbruiWY51O544qE0RHnKQWz+Z4obV/DN3fn/5DX4pPFxXz0gheYSu1KyPwRa7ut0QBVidgwVuy2rCQhU0SjPg4gzzaGf43mnnvOQcY+iDMXpM49FQ4rzJjII96qce+hWkTlvSRkvhBPxt3KFJFBtSxSJJo64XnLd5n1Vz3ZtoOSFjsIVkTZOEsu/k9DRbHMui3e3Xx3a9A/nHb0jSfo0WyPfsnZ38Qf9npr+WEBXMqN9iWgZxDUg/IMQgaH2BgmcwsVmJRub8YGaWkpWvwzTc5YoJHS2FFt+dTpSiySvAasQICeeiMURTD6PyLqAUsE1Ze0E61i+CXxIcIJUpRRSXhg59HnMXg6QqKsm5Rs6YHYA6YuNgkhxpsO/ExyavKFCKeiD7/6OAcmdjraimBK2R1oiYw/PIsHtlpZWfGlF20Uo7Vm8aRl5E29s8BQpHaQ16Se6Hc20W/PZ1jfE/sB+HIsT+3y9bvacDOVErP74vvQKAK+P/J45s/BoA8N3axnSiPa7836Tp6AarTh74YFb5BgJKgnl4BjfqKXR+7t1hIdgOjtEHlo9MuqfJunzAx4Bq1xqBzxT04zjaCEQtNpYUBG7KgKaCpHvLx8BT02OFyqubr7RfO/+/Mx+EvhSWl/UbvAgMBAAGjggFiMIIBXjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBT2fi+9gKNKsnBb69+aH9jtymGABzAfBgNVHSMEGDAWgBROIlQgGJXm427mD/r6uRLtBhePOTAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEAGCCsGAQUFBzAChjRodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzIuY3J0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwHQYDVR0gBBYwFDAIBgZngQwBAgEwCAYGZ4EMAQICMA0GCSqGSIb3DQEBDAUAA4IBAQCWgAFwH3gJ4foNYrBrjnnQFPMvGVMdU2x5AnlJ62c+kG480s+A4t71jtkyfhkrqaF94rtGIzNqfhQX0IPmsXdNwJ6+jcjGt1X5h8HC+VsZi/7omZfeYAyVpRvbdjak42iLEUkQ5wAwopHnmZILlbidDqMN+ntDL/nTgxCl2Ml+WT3REewhkZdU/D8l1sGnTDqkNvijkKrJ2ZmpkysS9saTWnyR6AWQF6Sn/lZV93zoF0fbGz4Yo7eHKIDyIGsEIYl+quKNtGdmburn7J1cXeOEkMlZ/FbkQFhkEmtTP9r7wr/vwGPAjzPZVgmkbi3qvii04YHmwTIM8PCrHTRGi67yZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAADkjCCA44wggJ2oAMCAQICEAM68eanEamguyhksR0J+uUwDQYJKoZIhvcNAQELBQAwYTELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3LmRpZ2ljZXJ0LmNvbTEgMB4GA1UEAxMXRGlnaUNlcnQgR2xvYmFsIFJvb3QgRzIwHhcNMTMwODAxMTIwMDAwWhcNMzgwMTE1MTIwMDAwWjBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALs3zTTce2vJsmiQrUp1/0a6IQoIjfUZVMn7iNvzrvI6iZE8euarBhprz6wt6F4JJES6Ypp+1qOofuBUdSAFrFC3nGMabDDc2h8Zsdce3v3X4MuUgzeu7B9DTt17LNK9LqUv5Km4rTrUmaS2JembawBgkmD/TyFJGPdnkKthBpyP8rrptOmSMmu181foXRvNjB2rlQSVSfM1LZbjSW3dd+P7SUu0rFUHqY+Vs7Qju0xtRfD2qbKVMLT9TFWMJ0pXFHyCnc1zktMWSgYMjFDRjx4Jvheh5iHK/YPlELyDpQrEZyj2cxQUPUZ2w4cUiSE0Ta8PRQymSaG6u5zFsTODKYUCAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0OBBYEFE4iVCAYlebjbuYP+vq5Eu0GF485MA0GCSqGSIb3DQEBCwUAA4IBAQBgZyiUbw5IY+sx3epnGNWJfTzFi0p/6b7bKxffsF9zdyoyEzmBZ0KEI/JFZzXsiL/4j7BhDDSkriBMhMbb+DXhdtnfpkK7x0QIhn82dCRa2mwNFFk1vfJJ3bYfybMNRyo9mS+7XLu11CDhmV9TRhXbaJvw8zDVPjHijYSe44ra2pY+NROlX/D5cFBwR0ERVxlOwI+uBsSVExcvGyWfdfKxjpmhbxOxQXH+iCrITxAgVdfzFEXl4ET06oeVMpMO/lNG+iyd/4siuUvZCUWk3qS4mljdG31Sn45ZQ4iBpJ4m1W+t3Q3GN33tA5Ib5Xdfdu48jcRdVlui2WZuszU35TK2AAAAAQAAAAJoMgABAAAAAG1hbm9uOnRsc2ZsYWdzMHgwMDAwMDAwMDphcGktYWZyYy5mbGlnaHRwcm94eS50ZWFtcy5taWNyb3NvZnQuY29tOjQ0M15wYXJ0aXRpb25LZXk9JTI4aHR0cHMlMkNtaWNyb3NvZnQuY29tJTI5AAA= request-method POST response-head HTTP/2 201 
+content-type: application/vnd.skype.gvc.v1.0+json; charset=utf-8
+date: Tue, 01 Jul 2025 17:21:20 GMT
+server: Kestrel
+access-control-allow-credentials: true
+access-control-allow-origin: https://teams.microsoft.com
+access-control-expose-headers: X-Microsoft-Skype-Chain-ID,X-Microsoft-Skype-ContentSharing-Chain-ID,X-Microsoft-Skype-Message-ID,X-Microsoft-Skype-Original-Message-ID,X-Microsoft-Skype-Content-Encoding,challenge-id,azureregion,WWW-Authenticate
+expires: Tue, 01 Jul 2025 19:21:20 GMT
+location: https://api.flightproxy.teams.microsoft.com:443/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw?i=10-128-24-35&e=638866231824725289
+via: 2 ep-sano-03-prod-aks.flightproxy.teams.microsoft.com
+content-length: 12056
+request-context: appId=
+x-microsoft-skype-conversation-type: ScheduledMeeting
+x-microsoft-skype-convergedmeetingtype: singleshard
+x-microsoft-skype-convergedmeetingmode: singleshard
+x-microsoft-skype-isconverged: False
+x-pgi: 10-128-24-35
+x-microsoft-skype-client: SkypeSpaces/1415/25051800200/os=linux; osVer=undefined; deviceType=computer; browser=firefox; browserVer=140.0; experienceName=lime/TsCallingVersion=2025.18.01.4/Ovb=d330cc07f7c2175395efe31810a88a5a2b088009
+x-ms-client-version: SkypeSpaces/1415/25051800200/os=linux; osVer=undefined; deviceType=computer; browser=firefox; browserVer=140.0; experienceName=lime/TsCallingVersion=2025.18.01.4/Ovb=d330cc07f7c2175395efe31810a88a5a2b088009
+x-microsoft-skype-chain-id: 1b98cc64-5960-4ecd-b38d-d02aa33f7b88
+x-microsoft-skype-proxy-cluster-context: https://cc-sano-01-prod-aks.cc.skype.com/cc/v1/calls?i=10-128-17-57
+x-microsoft-skype-message-id: 9fe1a79d-d7a4-43f2-9b3e-db361aa9a2e1
+x-pyi: 10-128-34-167
+timing-allow-origin: local.teams.office.com, teams.microsoft.com
+X-Firefox-Spdy: h2
+ original-response-headers content-type: application/vnd.skype.gvc.v1.0+json; charset=utf-8
+date: Tue, 01 Jul 2025 17:21:20 GMT
+server: Kestrel
+access-control-allow-credentials: true
+access-control-allow-origin: https://teams.microsoft.com
+access-control-expose-headers: X-Microsoft-Skype-Chain-ID,X-Microsoft-Skype-ContentSharing-Chain-ID,X-Microsoft-Skype-Message-ID,X-Microsoft-Skype-Original-Message-ID,X-Microsoft-Skype-Content-Encoding,challenge-id,azureregion,WWW-Authenticate
+expires: Tue, 01 Jul 2025 19:21:20 GMT
+location: https://api.flightproxy.teams.microsoft.com:443/api/v2/ep/conv-sano-02-prod-aks.conv.skype.com/conv/XNJ2oRjT3UiAYkl_3KBaZw?i=10-128-24-35&e=638866231824725289
+via: 2 ep-sano-03-prod-aks.flightproxy.teams.microsoft.com
+content-length: 12056
+request-context: appId=
+x-microsoft-skype-conversation-type: ScheduledMeeting
+x-microsoft-skype-convergedmeetingtype: singleshard
+x-microsoft-skype-convergedmeetingmode: singleshard
+x-microsoft-skype-isconverged: False
+x-pgi: 10-128-24-35
+x-microsoft-skype-client: SkypeSpaces/1415/25051800200/os=linux; osVer=undefined; deviceType=computer; browser=firefox; browserVer=140.0; experienceName=lime/TsCallingVersion=2025.18.01.4/Ovb=d330cc07f7c2175395efe31810a88a5a2b088009
+x-ms-client-version: SkypeSpaces/1415/25051800200/os=linux; osVer=undefined; deviceType=computer; browser=firefox; browserVer=140.0; experienceName=lime/TsCallingVersion=2025.18.01.4/Ovb=d330cc07f7c2175395efe31810a88a5a2b088009
+x-microsoft-skype-chain-id: 1b98cc64-5960-4ecd-b38d-d02aa33f7b88
+x-microsoft-skype-proxy-cluster-context: https://cc-sano-01-prod-aks.cc.skype.com/cc/v1/calls?i=10-128-17-57
+x-microsoft-skype-message-id: 9fe1a79d-d7a4-43f2-9b3e-db361aa9a2e1
+x-pyi: 10-128-34-167
+timing-allow-origin: local.teams.office.com
+timing-allow-origin: teams.microsoft.com
+X-Firefox-Spdy: h2
+ ctid 1 net-response-time-onstart 1128 net-response-time-onstop 1191   /
