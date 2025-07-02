@@ -1,3 +1,8 @@
+# Wanani Family Repository
+
+Welcome to the Wanani Family Repository!
+
+👉 Click here to access the Wanani Family Script
 echo "# wanaoni-family" >> README.md
 git init
 git add README.md
