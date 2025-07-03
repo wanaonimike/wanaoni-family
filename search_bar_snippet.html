@@ -1,0 +1,21 @@
+
+<!-- Search Bar -->
+<section id="search">
+    <input type="text" id="searchInput" placeholder="Search the site..." onkeyup="filterSections()" style="width: 100%; padding: 0.75rem; font-size: 1rem; margin-bottom: 1rem;">
+</section>
+
+<script>
+function filterSections() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach(section => {
+        const text = section.innerText.toLowerCase();
+        if (text.includes(input) || section.id === 'search') {
+            section.style.display = '';
+        } else {
+            section.style.display = 'none';
+        }
+    });
+}
+</script>
