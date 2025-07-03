@@ -96,6 +96,39 @@
 <footer>
     <p>&copy; 2024 Wanaoni Family. All rights reserved.</p>
 </footer>
+<input type="text" id="searchBox" placeholder="Search...">
+<ul id="results"></ul>
+https://unpkg.com/lunr/lunr.js
+<script>
+  let idx = null;
+  let documents = [];
+
+  fetch('/wanaoni-family/search.json')
+    .then(response => response.json())
+    .then(data => {
+      documents = data;
+      idx = lunr(function () {
+        this.ref('url');
+        this.field('title');
+        this.field('content');
+        documents.forEach(doc => this.add(doc));
+      });
+    });
+
+  document.getElementById('searchBox').addEventListener('input', function () {
+    const query = this.value;
+    const results = idx.search(query);
+    const resultsList = document.getElementById('results');
+    resultsList.innerHTML = '';
+
+    results.forEach(result => {
+      const item = documents.find(d => d.url === result.ref);
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
+      resultsList.appendChild(li);
+    });
+  });
+</script>
 
 </body>
 </html>
