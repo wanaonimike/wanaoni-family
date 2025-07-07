@@ -2,136 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanaoni Family</title>
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Wanaoni Family - Celebrating unity, heritage, and community.">
-    <meta name="keywords" content="Wanaoni, Family, Kenya, Heritage, Community, Culture">
-    <meta name="author" content="Wanaoni Family">
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Wanaoni Family">
-    <meta property="og:description" content="Celebrating unity, heritage, and community.">
-    <meta property="og:url" content="https://wanaonimike.github.io/wanaoni-family/">
-    <meta name="twitter:card" content="summary_large_image">
-
+    <title>Wanaoni Family Portal</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #2c3e50;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            background: #34495e;
-            padding: 0.5rem;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 1rem;
-            text-decoration: none;
-        }
-        section {
-            padding: 2rem;
-            background: #fff;
-            margin: 1rem auto;
-            max-width: 800px;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #2c3e50;
-            color: #fff;
-        }
-        .btn {
-            display: inline-block;
-            background: #2980b9;
-            color: #fff;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 1rem;
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #4CAF50; color: white; padding: 20px 0; text-align: center; }
+        nav { background:#eee; padding:10px; text-align:center; }
+        nav a { margin: 0 10px; color: #4CAF50; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; background: white; margin: 20px; border-radius: 8px; }
+        h2 { color: #4CAF50; }
+        ul { line-height: 1.8; }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="communication_connection.html">Communication & Connection</a> |
+        <a href="wellbeing_support.html">Wellbeing & Support</a> |
+        <a href="community_services.html">Community Services</a> |
+        <a href="security_accessibility.html">Security & Accessibility</a>
+    </nav>
+    <header>
+        <h1>Wanaoni Family Portal</h1>
+        <p>Empowering Families Through Connection and Support</p>
+    </header>
 
-<header>
-    <h1>Welcome to the Wanaoni Family Portal</h1>
-</header>
+    <!-- Optionally add the search bar here -->
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#events">Events</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <section>
+        <h2>🏡 Family Management</h2>
+        <ul>
+            <li>Family Member Profiles with relationship mapping</li>
+            <li>Shared Calendar for events, appointments, and reminders</li>
+            <li>Task & Chore Management with assignments and tracking</li>
+        </ul>
+    </section>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>The Wanaoni Family is a community rooted in unity, heritage, and shared values. We celebrate our culture and support one another through events, storytelling, and collaboration.</p>
-</section>
+    <section>
+        <h2>💬 Communication & Connection</h2>
+        <ul>
+            <li>Family Messaging (group and private)</li>
+            <li>Photo & Memory Sharing with albums and milestones</li>
+            <li>Announcements & Notes with shared lists</li>
+        </ul>
+    </section>
 
-<section id="events">
-    <h2>Upcoming Events</h2>
-    <p>Join our next virtual family gathering on Microsoft Teams.</p>
-    <a class="btn" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Abf428514b5da482f9c2271db7191d87c%40thread.tacv2%2F1751195807068%3Fcontext%3D%257b%2522Tid%2522%253a%25227d5331b8-328c-4141-b69d-02703402f6f0%2522%252c%2522Oid%2522%253a%2522af557628-7318-41ab-9d54-9a60343058b7%2522%257d%26anon%3Dtrue&amp;type=meetup-join&amp;deeplinkId=b287709a-1fe9-4efa-abc4-873fatrue&amp;msLaunch=true&amp;enableMobilePage=true&amp;suppressPrompt=true
-</section>
+    <section>
+        <h2>🧠 Wellbeing & Support</h2>
+        <ul>
+            <li>Health Records including vaccinations and medication reminders</li>
+            <li>Mental Health Tools like mood tracking and journaling</li>
+            <li>Budgeting & Finance Tools for planning and expense tracking</li>
+        </ul>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>For inquiries or to get involved, please reach out to us via email or connect with us on social media.</p>
-</section>
+    <section>
+        <h2>🌍 Community & External Services</h2>
+        <ul>
+            <li>Service Directory for clinics, schools, legal aid, etc.</li>
+            <li>Support Programs access and application tracking</li>
+            <li>Community Forums for parenting tips and local events</li>
+        </ul>
+    </section>
 
-<footer>
-    <p>&copy; 2024 Wanaoni Family. All rights reserved.</p>
-</footer>
-<input type="text" id="searchBox" placeholder="Search...">
-<ul id="results"></ul>
-https://unpkg.com/lunr/lunr.js
-<script>
-  let idx = null;
-  let documents = [];
-
-  fetch('/wanaoni-family/search.json')
-    .then(response => response.json())
-    .then(data => {
-      documents = data;
-      idx = lunr(function () {
-        this.ref('url');
-        this.field('title');
-        this.field('content');
-        documents.forEach(doc => this.add(doc));
-      });
-    });
-
-  document.getElementById('searchBox').addEventListener('input', function () {
-    const query = this.value;
-    const results = idx.search(query);
-    const resultsList = document.getElementById('results');
-    resultsList.innerHTML = '';
-
-    results.forEach(result => {
-      const item = documents.find(d => d.url === result.ref);
-      const li = document.createElement('li');
-      li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-      resultsList.appendChild(li);
-    });
-  });
-</script>
-
+    <section>
+        <h2>🔐 Security & Accessibility</h2>
+        <ul>
+            <li>Role-Based Access for parents, children, and guardians</li>
+            <li>Multilingual Support (e.g., Swahili, English)</li>
+            <li>Mobile App Integration and offline access</li>
+        </ul>
+    </section>
 </body>
 </html>
-
-
-
