@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="chrome://browser/content/contentSearchUI.css" />
     <link rel="stylesheet" href="chrome://newtab/content/css/activity-stream.css" />
   </head>
-  <!-- Cached: Tue, 01 Jul 2025 17:23:45 GMT -->
+  <!-- Cached: Sun, 13 Jul 2025 14:52:51 GMT -->
   <body class="activity-stream">
     <div id="header-asrouter-container" role="presentation"></div>
     <div id="root">
@@ -257,7 +257,7 @@ window.__STARTUP_STATE__ = {
 			"discoverystream.contextualContent.fakespot.ctaCopy": "",
 			"discoverystream.contextualContent.fakespot.ctaUrl": "",
 			"discoverystream.publisherFavicon.enabled": false,
-			"support.url": "https://support.mozilla.org/1/firefox/140.0.2/Linux/en-US/new-tab",
+			"support.url": "https://support.mozilla.org/1/firefox/140.0.4/Linux/en-US/new-tab",
 			"caretBlinkCount": 5,
 			"caretBlinkTime": 1200,
 			"system.showSponsoredCheckboxes": false,
@@ -309,7 +309,7 @@ window.__STARTUP_STATE__ = {
 				"newFooterSection": false,
 				"saveToPocketCard": true,
 				"saveToPocketCardRegions": "",
-				"hideDescriptions": false,
+				"hideDescriptions": true,
 				"hideDescriptionsRegions": "",
 				"compactGrid": false,
 				"compactImages": false,
@@ -678,7 +678,7 @@ window.__STARTUP_STATE__ = {
 		"sectionPersonalization": {},
 		"pocketButtonEnabled": false,
 		"saveToPocketCard": false,
-		"hideDescriptions": false,
+		"hideDescriptions": true,
 		"compactImages": false,
 		"imageGradient": false,
 		"newSponsoredLabel": false,
@@ -1772,4 +1772,4 @@ window.__STARTUP_STATE__ = {
 	}
 };
 
-tpt           hd¡H[¼ÿÿÿÿ       :about:home alt-data 1;11311,script version 20250627212033  
+^0dÔÝ           hsÈCHfšÍÿÿÿÿ       :about:home alt-data 1;11311,script version 20250707213238  }
