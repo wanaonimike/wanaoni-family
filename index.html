@@ -5,178 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wanaoni Family</title>
   <style>
-    :root {
-      --primary: #2E86C1;
-      --secondary: #F4D03F;
-      --accent: #E74C3C;
-      --bg-light: #FDFEFE;
-      --bg-alt: #F2F3F4;
-      --text: #2C3E50;
-      --nav-hover: #21618C;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Segoe UI', Tahoma, sans-serif; color: var(--text); background: var(--bg-light); }
-    header { background: var(--primary); color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 10; }
-    nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; }
-    nav li { margin: 0.5rem 1rem; }
-    nav a { color: white; text-decoration: none; font-weight: bold; padding: 0.25rem 0.5rem; transition: background 0.3s; }
-    nav a:hover { background: var(--nav-hover); border-radius: 4px; }
-    section { padding: 2rem; }
-    .section-hero { background: var(--bg-alt); text-align: center; }
-    .section-about { background: white; }
-    .section-tree { background: var(--bg-alt); }
-    .section-gallery { background: white; }
-    .section-events { background: var(--bg-alt); }
-    .section-blog { background: white; }
-    .section-recipes { background: var(--bg-alt); }
-    .section-guestbook { background: white; }
-    .section-contact { background: var(--bg-alt); }
-    footer { background: var(--primary); color: white; text-align: center; padding: 1rem; margin-top: 1rem; }
-    .gallery { display: flex; flex-wrap: wrap; justify-content: space-around; }
-    .gallery img { width: calc(33% - 1rem); margin: 0.5rem; border-radius: 8px; }
-    .events-list li { margin-bottom: 0.5rem; }
-    .events-list a { color: var(--accent); text-decoration: none; }
-    .events-list a:hover { text-decoration: underline; }
-    .tree ul { display: none; list-style: none; margin-left: 1.5rem; }
-    .tree li { cursor: pointer; position: relative; margin: 0.5rem 0; }
-    .tree li::before { content: '▶'; display: inline-block; width: 1em; color: var(--secondary); }
-    .tree li.open::before { content: '▼'; }
-    .post { border-left: 4px solid var(--accent); padding-left: 1rem; margin-bottom: 1.5rem; }
-    .post h3 { margin-bottom: 0.5rem; color: var(--primary); }
-    .recipe-card { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; background: white; }
-    .recipe-card h4 { margin-bottom: 0.5rem; }
-    .recipe-card img { max-width: 100%; border-radius: 4px; margin-bottom: 0.5rem; }
-    input, textarea, button { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border-radius: 4px; border: 1px solid #ccc; }
-    button { background: var(--accent); color: white; border: none; cursor: pointer; transition: background 0.3s; }
-    button:hover { background: #C0392B; }
+    /* (your existing styles here) */
   </style>
 </head>
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#family-tree">Family Tree</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#recipes">Recipes</a></li>
-        <li><a href="#guestbook">Guestbook</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="home" class="section-hero">
-    <h1>Welcome to Our Family Home</h1>
-    <p>Connecting generations, sharing stories, celebrating heritage.</p>
-  </section>
-
-  <section id="about" class="section-about">
-    <h2>About Us</h2>
-    <p>The Wanaoni Family traces its roots back to Machakos County, Kenya. Our mission is to preserve memories, celebrate milestones, and stay connected across the miles.</p>
-  </section>
-
-  <section id="family-tree" class="section-tree">
-    <h2>Interactive Family Tree</h2>
-    <ul class="tree">
-      <li class="open">Grandparents
-        <ul>
-          <li>Grandfather</li>
-          <li>Grandmother</li>
-        </ul>
-      </li>
-      <li>Parents
-        <ul>
-          <li>Father</li>
-          <li>Mother</li>
-        </ul>
-      </li>
-      <li>Children
-        <ul>
-          <li>Michael</li>
-          <li>Siblings</li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-
-  <section id="gallery" class="section-gallery">
-    <h2>Photo Gallery</h2>
-    <div class="gallery">
-      <img src="images/reunion-2024.jpg" alt="Family Reunion 2024">
-      <img src="images/heritage-tree.jpg" alt="Our Family Tree">
-      <!-- more photos -->
-    </div>
-  </section>
-
-  <section id="events" class="section-events">
-    <h2>Upcoming Events</h2>
-    <ul class="events-list">
-      <li>Annual Reunion — <a href="#contact">RSVP for August 15, 2025</a></li>
-      <li>Storytelling Night — <a href="#contact">Join October 10, 2025</a></li>
-      <li>Virtual Meetup — <a href="#contact">Register December 5, 2025</a></li>
-    </ul>
-  </section>
-
-  <section id="blog" class="section-blog">
-    <h2>News & Blog</h2>
-    <div class="post">
-      <h3>Reunion Recap</h3>
-      <p>Over 200 relatives gathered in Machakos for music, dance, and stories. See above gallery!</p>
-    </div>
-    <div class="post">
-      <h3>Heritage Cookbook</h3>
-      <p>We’re collecting five generations’ recipes. Share yours in the Recipes section.</p>
-    </div>
-  </section>
-
-  <section id="recipes" class="section-recipes">
-    <h2>Recipe & Heirloom Collections</h2>
-    <div class="recipe-card">
-      <h4>Grandma’s Uji (Millet Porridge)</h4>
-      <img src="images/uji.jpg" alt="Millet Porridge">
-      <p>Ingredients: millet flour, water, sugar. Method: whisk over heat until thick.</p>
-    </div>
-    <!-- more recipes -->
-  </section>
-
-  <section id="guestbook" class="section-guestbook">
-    <h2>Guestbook & Memory Wall</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-      <button type="submit">Sign Guestbook</button>
-    </form>
-  </section>
+  <!-- your other sections... -->
 
   <section id="contact" class="section-contact">
     <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Name" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <textarea name="message" rows="5" placeholder="Message" required></textarea>
+    <form action="${ENDPOINT}" method="POST">
+      <input type="text"    name="name"    placeholder="Name"    required>
+      <input type="email"   name="email"   placeholder="Email"   required>
+      <textarea             name="message" placeholder="Message" rows="5" required></textarea>
       <button type="submit">Send Message</button>
     </form>
   </section>
 
-  <footer>
-    &copy; 2025 Wanaoni Family. All rights reserved.
-  </footer>
+  <footer>&copy; 2025 Wanaoni Family. All rights reserved.</footer>
 
-  <script>
-    // Collapsible family tree
-    document.querySelectorAll('.tree li').forEach(li => {
-      li.addEventListener('click', e => {
-        e.stopPropagation();
-        li.classList.toggle('open');
-        const kid = li.querySelector('ul');
-        if (kid) kid.style.display = (kid.style.display === 'block') ? 'none' : 'block';
-      });
-    });
-  </script>
 </body>
 </html>
