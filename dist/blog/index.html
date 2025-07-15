@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>News &amp; Blog</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/events/">Events</a>
+      <a href="/recipes/">Recipes</a>
+      <a href="/guestbook/">Guestbook</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    
+<h2>News &amp; Blog</h2>
+<input id="blog-search" type="text" placeholder="Search posts…" />
+
+<div id="search-results">
+  
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+  fetch("/search.json")
+    .then(r => r.json())
+    .then(docs => {
+      const idx = lunr(function() {
+        this.ref("url");
+        this.field("title");
+        this.field("content");
+        docs.forEach(doc => this.add(doc));
+      });
+
+      const input     = document.getElementById("blog-search");
+      const resultsEl = document.getElementById("search-results");
+
+      input.addEventListener("input", () => {
+        const q = input.value.trim();
+        if (!q) {
+          // show all posts
+          resultsEl.innerHTML = docs.map(post => `
+            <article class="post">
+              <h3><a href="\${post.url}">\${post.title}</a></h3>
+              <p>\${post.content.slice(0,150)}…</p>
+            </article>
+          `).join("");
+          return;
+        }
+        const hits = idx.search(q);
+        resultsEl.innerHTML = hits.map(({ ref }) => {
+          const p = docs.find(d => d.url === ref);
+          return `
+            <article class="post">
+              <h3><a href="\${p.url}">\${p.title}</a></h3>
+              <p>\${p.content.slice(0,150)}…</p>
+            </article>
+          `;
+        }).join("") || "<p>No posts found.</p>";
+      });
+    });
+</script>
+
+  </main>
+
+  <footer>&copy; 2025 Wanaoni Family</footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>

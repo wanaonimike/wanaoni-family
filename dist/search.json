@@ -1,0 +1,7 @@
+[
+  {
+    "title": "Our First Eleventy Post",
+    "url": "/blog/welcome/",
+    "content": "\nThis is a Markdown-powered blog post. Search is enabled via Lunr!\n"
+  }
+]

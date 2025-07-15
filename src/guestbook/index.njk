@@ -1,0 +1,12 @@
+---
+layout: base.njk
+title: Guestbook
+permalink: /guestbook/index.html
+---
+
+<h2>{{ title }}</h2>
+<form action="https://formspree.io/f/mdkdoenp" method="POST">
+  <label>Name:<br><input type="text" name="name" required></label><br>
+  <label>Message:<br><textarea name="message" rows="4" required></textarea></label><br>
+  <button type="submit">Sign Guestbook</button>
+</form>

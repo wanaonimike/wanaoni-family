@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guestbook</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/events/">Events</a>
+      <a href="/recipes/">Recipes</a>
+      <a href="/guestbook/">Guestbook</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    
+<h2>Guestbook</h2>
+<form action="https://formspree.io/f/mdkdoenp" method="POST">
+  <label>Name:<br><input type="text" name="name" required></label><br>
+  <label>Message:<br><textarea name="message" rows="4" required></textarea></label><br>
+  <button type="submit">Sign Guestbook</button>
+</form>
+
+  </main>
+
+  <footer>&copy; 2025 Wanaoni Family</footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>

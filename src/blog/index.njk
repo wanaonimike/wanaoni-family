@@ -1,0 +1,58 @@
+---
+layout: base.njk
+title: News & Blog
+permalink: /blog/index.html
+---
+
+<h2>{{ title }}</h2>
+<input id="blog-search" type="text" placeholder="Search posts…" />
+
+<div id="search-results">
+  {% for post in collections.blogIndex %}
+    <article class="post">
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p>{{ post.data.content | slice(0, 150) }}…</p>
+    </article>
+  {% endfor %}
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+  fetch("/search.json")
+    .then(r => r.json())
+    .then(docs => {
+      const idx = lunr(function() {
+        this.ref("url");
+        this.field("title");
+        this.field("content");
+        docs.forEach(doc => this.add(doc));
+      });
+
+      const input     = document.getElementById("blog-search");
+      const resultsEl = document.getElementById("search-results");
+
+      input.addEventListener("input", () => {
+        const q = input.value.trim();
+        if (!q) {
+          // show all posts
+          resultsEl.innerHTML = docs.map(post => `
+            <article class="post">
+              <h3><a href="\${post.url}">\${post.title}</a></h3>
+              <p>\${post.content.slice(0,150)}…</p>
+            </article>
+          `).join("");
+          return;
+        }
+        const hits = idx.search(q);
+        resultsEl.innerHTML = hits.map(({ ref }) => {
+          const p = docs.find(d => d.url === ref);
+          return `
+            <article class="post">
+              <h3><a href="\${p.url}">\${p.title}</a></h3>
+              <p>\${p.content.slice(0,150)}…</p>
+            </article>
+          `;
+        }).join("") || "<p>No posts found.</p>";
+      });
+    });
+</script>
