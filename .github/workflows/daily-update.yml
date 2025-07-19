@@ -1,0 +1,25 @@
+name: Daily Message Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - run: npm ci
+      - run: npm run update-msg
+
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add src/_data/dailyMessage.json
+          git commit -m "Daily message update"
+          git push

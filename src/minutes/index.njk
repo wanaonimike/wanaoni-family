@@ -1,0 +1,12 @@
+---
+layout: base.njk
+title: "Family Meeting Minutes"
+---
+<h1>Family Meeting Minutes</h1>
+<ul>
+{% for minute in collections.minutes | reverse %}
+  <li>
+    <a href="{{ minute.url }}">{{ minute.data.title }}</a> — {{ minute.date.toISOString().slice(0,10) }}
+  </li>
+{% endfor %}
+</ul>
