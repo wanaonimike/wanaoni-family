@@ -1,0 +1,159 @@
+/* Full-screen Marquee Ticker */
+.full-ticker {
+  position: fixed;
+  top: 0; left: 0; width: 100%;
+  background: #000;
+  overflow: hidden;
+  z-index: 1000;
+}
+.full-ticker p {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.5em;
+  padding: 0.5em 0;
+  animation:
+    scrollTicker 12s linear infinite,
+    colorChange 4s linear infinite,
+    blink 1s linear infinite;
+}
+
+@keyframes scrollTicker {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes colorChange {
+  0%   { color: red; }
+  25%  { color: yellow; }
+  50%  { color: lime; }
+  75%  { color: aqua; }
+  100% { color: red; }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+/* Push content down so ticker doesn’t overlap */
+main { margin-top: 0; }
+
+.full-ticker p {
+  font-size: 1em;            /* smaller text */
+  padding: 0.2em 0;          /* less vertical padding */
+  animation:
+    scrollTicker 30s linear infinite,  /* slower scroll */
+    colorChange 8s linear infinite,    /* slower color cycle */
+    blink 1.5s linear infinite;        /* slightly slower blink */
+}
+
+/* Adjust content push-down to match new height */
+main { margin-top: 0; }
+
+
+/* Ticker container: auto height with vertical padding */
+.full-ticker {
+  position: fixed;
+  top: 0; left: 0; width: 100%;
+  background: #000;
+  padding: 0.3em 0;      /* vertical padding to clear the text */
+  overflow: hidden;      /* only clip horizontally */
+  z-index: 1000;
+}
+
+/* Ticker text: line-height + margin reset */
+.full-ticker p {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1em;
+  line-height: 1.4;      /* ensures the full glyph fits */
+  margin: 0;             /* remove default <p> margins */
+  animation:
+    scrollTicker 30s linear infinite,
+    colorChange 8s linear infinite,
+    blink 1.5s linear infinite;
+}
+
+/* Push page content down to accommodate the taller ticker */
+main { margin-top: 0; }
+
+
+/* --- Horizontal Site Navigation --- */
+.site-nav ul {
+  display: flex;           /* lay items in a row */
+  flex-wrap: wrap;         /* wrap on small viewports */
+  gap: 1em;                /* space between links */
+  margin: 0;               /* remove default list margins */
+  padding: 0;              
+  list-style: none;        
+}
+.site-nav li {
+  margin: 0;               /* reset any list-item spacing */
+}
+.site-nav a {
+  display: block;
+  padding: 0.5em 0.75em;   /* clickable area */
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --- Horizontal Breadcrumbs --- */
+.breadcrumbs {
+  display: flex;           /* lay crumbs in a row */
+  align-items: center;     
+  gap: 0.5em;              /* space between crumb links */
+  font-size: 0.9em;
+  margin: 0 1em;           
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+/* Use a slash glyph or CSS-generated slash */
+.breadcrumbs li,
+.breadcrumbs span {
+  white-space: nowrap;
+}
+
+/* Site Navigation: Horizontal Layout */
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.site-nav li { margin: 0; }
+.site-nav a {
+  display: block;
+  color: #fff;
+  background: #0066cc;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.site-nav a:hover { background: #005bb5; }
+
+/* Breadcrumbs: Horizontal Layout */
+.breadcrumbs ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.5em 1em;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9em;
+}
+.breadcrumbs li { white-space: nowrap; }
+.breadcrumbs a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.breadcrumbs a:hover { text-decoration: underline; }
+
+/* Push entire content below the fixed ticker */
+body {
+  padding-top: 2.5em; /* match your ticker’s total height (padding + line-height) */
+}

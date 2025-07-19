@@ -1,0 +1,32 @@
+const fs   = require("fs");
+
+module.exports = function(eleventyConfig) {
+  // 1) Copy static assets
+  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/js");
+
+  // 2) Blog collection
+  eleventyConfig.addCollection("blogIndex", collection =>
+    collection.getFilteredByGlob("src/posts/*.md").map(post => ({
+      title:   post.data.title,
+      url:     post.url,
+      content: post.template.frontMatter.content
+    }))
+  );
+
+  // 3) After each build, write the JSON index
+  eleventyConfig.on("afterBuild", () => {
+    const index = eleventyConfig.javascriptFunctions.collections.blogIndex();
+    fs.writeFileSync("./dist/search.json", JSON.stringify(index, null, 2));
+  });
+
+  return {
+    dir: {
+      input:    "src",
+      includes: "includes",
+      layouts:  "layouts",
+      output:   "dist"
+    }
+  };
+};
